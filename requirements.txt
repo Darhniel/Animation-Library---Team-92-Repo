@@ -14,6 +14,7 @@ Pillow==9.1.1
 pipenv==2022.5.2
 platformdirs==2.5.2
 psycopg2==2.9.3
+psycopg2-binary==2.9.6
 PyAutoGUI==0.9.53
 PyGetWindow==0.0.9
 PyMsgBox==1.0.9
