@@ -27,7 +27,7 @@ SECRET_KEY = 'django-insecure-m##ijx5=(u^mrn#!h7jxoe0vi*cu&!bc%cx3wi7qa(t0(0b=8w
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['.vercel.app']
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
@@ -148,6 +148,8 @@ MEDIA_URL = 'images/'
 STATICFILES_DIRS = [
     os.path.join(BASE_DIR, 'static')
 ]
+STATICROOT = os.path.join(BASEDIR, 'staticfiles_build', 'static')
+
 # register custom user model
 AUTH_USER_MODEL = 'accounts.NewUser'
 
